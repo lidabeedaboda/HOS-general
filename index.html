@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star Dance Academy</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #171717;
+}
+
+header {
+    height: 85px;
+    padding: 0 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.logo {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #999999;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    color: #555555;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+.hero {
+    min-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.symbol {
+    font-size: 38px;
+    margin-bottom: 28px;
+    color: #222222;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 7vw, 76px);
+    font-weight: 700;
+    letter-spacing: -4px;
+    line-height: 1.1;
+}
+
+.subtitle {
+    margin-top: 22px;
+    color: #777777;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.divider {
+    width: 45px;
+    height: 2px;
+    background: #222222;
+    margin: 35px 0;
+}
+
+.status {
+    border: 1px solid #e5e5e5;
+    padding: 13px 25px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #333333;
+}
+
+.description {
+    max-width: 480px;
+    margin-top: 28px;
+    color: #888888;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+footer {
+    border-top: 1px solid #eeeeee;
+    padding: 28px 9%;
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    font-size: 11px;
+}
+
+@media(max-width: 600px) {
+    header {
+        padding: 0 5%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        height: 100px;
+    }
+
+    nav {
+        gap: 22px;
+    }
+
+    .hero h1 {
+        letter-spacing: -2px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">STAR <span>DANCE ACADEMY</span></div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+
+    <div class="symbol">✦</div>
+
+    <h1>Star Dance Academy</h1>
+
+    <div class="subtitle">
+        Where Dreams Take Centre Stage
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="status">
+        COMING SOON
+    </div>
+
+    <p class="description" id="about">
+        A new destination for dance, creativity and community.
+        Something extraordinary is coming. Get ready to take
+        centre stage.
+    </p>
+
+</section>
+
+<footer>
+    <div>© 2026 STAR DANCE ACADEMY</div>
+    <div>AN OFFICIAL ROBLOX EXPERIENCE</div>
+</footer>
+
+</body>
+</html>
